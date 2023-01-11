@@ -60,9 +60,7 @@ export default function Banner() {
             <button className="banner__button info">More Information</button>
           </div>
 
-          <h1 className="banner__description">
-            {truncate(movie.overview, 100)}
-          </h1>
+          <h1 className="banner__description">{truncate(movie.overview)}</h1>
         </div>
         <div className="banner__fadeBottom"></div>
       </header>
